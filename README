@@ -1,0 +1,44 @@
+🏡 USA-PricePredict: AI-Powered House Price Estimator
+🔍 Project Snapshot
+USA-PricePredict is a hands-on machine learning project designed to estimate housing prices across the United States using regression models. It showcases a complete ML pipeline — from data wrangling to model comparison — using a synthetic dataset ideal for experimentation and portfolio demos.
+
+📊 Dataset Overview
+The dataset (USA_Housing.csv) includes anonymized, synthetic housing data with features like income, house age, rooms, bedrooms, population, and price. The Address column is dropped during preprocessing.
+
+⚙️ Setup & Requirements
+bash
+pip install pandas numpy matplotlib seaborn scikit-learn
+python usa_pricepredict.py
+🧠 Workflow Breakdown
+Data preprocessing
+
+Train-test split
+
+Model training (Linear, Tree-based, Ensemble)
+
+Evaluation (MSE, R², MAE, RMSE)
+
+Visual diagnostics
+
+Model ranking
+
+📈 Sample Output
+Code
+USA Gradient Boosting Regressor
+==============================
+USA House Price MSE: 1.23e+06
+USA House Price R2: 0.92
+USA House Price MAE: 850.45
+USA House Price RMSE: 1109.54
+==============================
+🛠️ Future Enhancements
+Hyperparameter tuning
+
+Cross-validation
+
+Feature importance
+
+Streamlit dashboard
+
+🤝 Contributing
+Fork, remix, and submit a pull request. All contributions welcome.
