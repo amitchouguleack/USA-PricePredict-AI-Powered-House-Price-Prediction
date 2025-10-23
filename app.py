@@ -24,3 +24,10 @@ prediction = model.predict(input_data)[0]
 
 # Output
 st.subheader(f"Estimated House Price: ${prediction:,.2f}")
+
+st.markdown("---")
+st.markdown("Made with ❤️ by Amit Chougule")
+
+st.markdown("---")
+st.markdown("🔗 [View Source on GitHub](https://github.com/amitchouguleack)")
+st.markdown("Made with ❤️ by Amit Chougule")
