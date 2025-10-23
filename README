@@ -1,14 +1,40 @@
-🏡 USA-PricePredict: AI-Powered House Price Estimator
-🔍 Project Snapshot
+markdown
+🏡 USA-PricePredict: AI-Powered House Price Estimator  
+🔗 **Live Demo:** [Streamlit App](https://usa-pricepredict-ai-powered-house-price-prediction-n5kvqcs6dgi.streamlit.app/)  
+📁 **Source Code:** [GitHub Profile](https://github.com/amitchouguleack)
+
+---
+
+### 🔍 Project Snapshot
+
 USA-PricePredict is a hands-on machine learning project designed to estimate housing prices across the United States using regression models. It showcases a complete ML pipeline — from data wrangling to model comparison — using a synthetic dataset ideal for experimentation and portfolio demos.
 
-📊 Dataset Overview
-The dataset (USA_Housing.csv) includes anonymized, synthetic housing data with features like income, house age, rooms, bedrooms, population, and price. The Address column is dropped during preprocessing.
+---
 
-⚙️ Setup & Requirements
-bash
-pip install pandas numpy matplotlib seaborn scikit-learn
+### 📊 Dataset Overview
+
+The dataset (`USA_Housing.csv`) includes anonymized, synthetic housing data with features like:
+
+- Average Area Income
+- Average House Age
+- Average Number of Rooms
+- Average Number of Bedrooms
+- Area Population
+- Price (target variable)
+
+The `Address` column is dropped during preprocessing.
+
+---
+
+### ⚙️ Setup & Requirements
+
+```bash
+pip install pandas numpy matplotlib seaborn scikit-learn streamlit
 python usa_pricepredict.py
+To run the Streamlit app locally:
+
+bash
+streamlit run app.py
 🧠 Workflow Breakdown
 Data preprocessing
 
@@ -38,7 +64,10 @@ Cross-validation
 
 Feature importance
 
-Streamlit dashboard
+Streamlit dashboard (✅ now live!)
 
 🤝 Contributing
 Fork, remix, and submit a pull request. All contributions welcome.
+
+Made with ❤️ by Amit Chougule
+```
